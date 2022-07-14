@@ -6,7 +6,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - name: http
+    - name: http-web
       protocol: TCP
       port: 8081
       targetPort: 8081
